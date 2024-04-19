@@ -1,0 +1,205 @@
+/*  BODY PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    min-height: 100%;
+    margin: 0;
+}
+
+/*  CONTAINER */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  CARD */
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.7rem;
+    align-items: center;
+}
+
+/*  AVATAR */
+
+.avatar {
+    width: auto;
+    height: 15%;
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+
+/*  titles */
+
+.section-titles {
+    margin: 15px 0px;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+h3 {
+    color: #C4E43E;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+/*  subtitles */
+
+h6 {
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+    font-weight: 300;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+/*  section-buttons */
+
+.section-buttons {
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
+
+button:active {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+
+}
+
+
+
+/* MEDIA-QUERIES */
+
+
+@media (min-width: 320px) and (max-width: 430px) {
+    .card {
+        background-color: hsl(0, 0%, 12%);
+        padding: 20px;
+        width: 80%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.7rem;
+        align-items: center;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 20%);
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        padding: 1rem 5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 780px) {
+    .card {
+        background-color: hsl(0, 0%, 12%);
+        padding: 20px;
+        width: 40%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.7rem;
+        align-items: center;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 20%);
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        padding: 1rem 6.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 781px) and (max-width: 1440px) {
+    .card {
+        background-color: hsl(0, 0%, 12%);
+        padding: 20px;
+        width: 30%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.7rem;
+        align-items: center;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 20%);
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        padding: 1rem 6.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card {
+        background-color: hsl(0, 0%, 12%);
+        padding: 20px;
+        width: 25%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0.7rem;
+        align-items: center;
+    }
+
+    button {
+        background-color: hsl(0, 0%, 20%);
+        font-weight: 700;
+        color: hsl(0, 0%, 100%);
+        padding: 1rem 7rem;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        white-space: nowrap;
+    }
+}
